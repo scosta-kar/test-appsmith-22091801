@@ -562,6 +562,7 @@
               "isVisible": "{{tableWis.selectedRowIndex!=-1}}",
               "enableClientSideSearch": true,
               "version": 1,
+              "textColor": "#3f3f46",
               "totalRecordsCount": 0,
               "isLoading": false,
               "childStylesheet": {
@@ -651,7 +652,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wiversionid\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "wiid": {
                   "allowCellWrapping": false,
@@ -676,7 +679,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wiid\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "seqnumber": {
                   "allowCellWrapping": false,
@@ -701,7 +706,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"seqnumber\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "wiversion": {
                   "allowCellWrapping": false,
@@ -726,7 +733,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wiversion\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "rootasset": {
                   "allowCellWrapping": false,
@@ -751,7 +760,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rootasset\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "description": {
                   "allowCellWrapping": false,
@@ -776,7 +787,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "enabled": {
                   "allowCellWrapping": false,
@@ -801,7 +814,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"enabled\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "wiversionstatus": {
                   "allowCellWrapping": false,
@@ -826,7 +841,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wiversionstatus\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "deleted": {
                   "allowCellWrapping": false,
@@ -851,7 +868,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"deleted\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "lastupdated": {
                   "allowCellWrapping": false,
@@ -876,7 +895,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastupdated\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "inserted": {
                   "allowCellWrapping": false,
@@ -901,7 +922,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"inserted\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 },
                 "datecompleted": {
                   "allowCellWrapping": false,
@@ -926,7 +949,9 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{tableWiVersions.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"datecompleted\"]))}}",
-                  "validation": {}
+                  "validation": {},
+                  "cellBackground": "#dc2626",
+                  "textColor": "#3f3f46"
                 }
               },
               "key": "d8isn8yw00",
@@ -942,6 +967,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "isVisiblePagination": true,
+              "cellBackground": "#dc2626",
               "verticalAlignment": "CENTER"
             }
           ]
